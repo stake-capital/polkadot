@@ -1,5 +1,9 @@
-# polkadot
+# Polkadot
 All information related to polkadot
+
+# Main repo
+
+https://github.com/paritytech/polkadot
 
 # Explorer
 
