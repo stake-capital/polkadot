@@ -8,3 +8,10 @@ source $HOME/.cargo/env
 rustup update
 sudo apt install make clang pkg-config libssl-dev build-essential
 
+# Install Polkadot
+git clone https://github.com/paritytech/polkadot.git
+# To update your node, run from this step.
+cd polkadot
+cargo clean
+./scripts/init.sh
+cargo install --path ./ --force
