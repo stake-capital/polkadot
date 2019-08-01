@@ -1,4 +1,7 @@
 #!/bin/bash
+# Kusama Installation 
+# Updated documentation https://guide.kusama.network/en/latest/try/validate/#building-and-installing-your-kusama-node
+# created by: Stake Capital 
 
 # Upgrade the system and install rust
 sudo apt update
