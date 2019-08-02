@@ -36,3 +36,5 @@ output:
 Are you sure to remove "/home/ubuntu/.local/share/polkadot/chains/alexander/db"? (y/n)y
 "/home/ubuntu/.local/share/polkadot/chains/alexander/db" removed. 
 ```
+
+More info: https://github.com/paritytech/polkadot/issues/349
