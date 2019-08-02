@@ -37,7 +37,7 @@ Description=Polkadot Validator
 After=network-online.target
 [Service]
 User=polkadot
-ExecStart=/opt/go/bin/polkadot --chain alex
+ExecStart=/opt/cargo/bin/polkadot --chain alex
 Restart=always
 RestartSec=3
 LimitNOFILE=4096
