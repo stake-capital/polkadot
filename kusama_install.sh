@@ -1,5 +1,5 @@
 #!/bin/bash
-# Kusama Installation 
+# Kusama Installation
 # Updated documentation https://guide.kusama.network/en/latest/try/validate/#building-and-installing-your-kusama-node
 # created by: Stake Capital 
 
