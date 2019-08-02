@@ -19,5 +19,6 @@ cargo clean
 git checkout v0.4
 git pull origin v0.4
 ./scripts/init.sh
+# Build client. If you get `proc-macro derive panicked`, execute "rm ./runtime/wasm/Cargo.lock"
 ./scripts/build.sh
 cargo install --path ./ --force
