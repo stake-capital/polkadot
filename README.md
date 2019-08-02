@@ -1,11 +1,13 @@
 # Polkadot
 All information related to polkadot
 
-# Main repo
+# Documentation
 
 https://github.com/paritytech/polkadot
 
 # Tools
+Telemetry: https://telemetry.polkadot.io/#/Alexander
+Explorer: https://polkadot.js.org/apps/#/explorer
 
 # Install Alexander Testnet
 
