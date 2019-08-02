@@ -5,13 +5,30 @@ All information related to polkadot
 
 https://github.com/paritytech/polkadot
 
-# Explorer
+# Tools
 
-## Polkascan
-POLKASCAN is part of WEB3SCAN and offers real-time multi-chain data. WEB3SCAN makes blockchain data accessible, understandable and suitable for business intelligence and advanced analytics, powering fact-based decision support.
+# Install Alexander Testnet
 
-## Telemetry 
-https://telemetry.polkadot.io/#/BBQ%20Birch
+## Install on Unbuntu
 
-## PoC 2 
-https://poc-2.polkadot.io
+Run script: https://github.com/stake-capital/polkadot/blob/master/alexander_install.sh
+
+## Synchronize Alexander chain data
+
+Run: `polkadot --chain alex`
+
+## Debug
+
+### During fresh sync
+
+If error: DB corrupted: Invalid argument: You have to open all column families.
+
+To fix it, run `polkadot purge-chain`:
+
+output:
+
+```
+~/polkadot$ polkadot purge-chain
+Are you sure to remove "/home/ubuntu/.local/share/polkadot/chains/alexander/db"? (y/n)y
+"/home/ubuntu/.local/share/polkadot/chains/alexander/db" removed. 
+```
