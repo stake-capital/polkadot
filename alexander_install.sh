@@ -47,4 +47,5 @@ WantedBy=multi-user.target" > polkadot.service
 sudo mv polkadot.service /etc/systemd/system/
 sudo systemctl enable polkadot.service
 
-
+# Output logs 
+journalctl -u polkadot.service -f
