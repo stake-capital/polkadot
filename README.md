@@ -1,5 +1,5 @@
-# Polkadot
-All information related to polkadot
+# Polkadot Stake Capital
+All information related to Polkadot 
 
 # Documentation
 
