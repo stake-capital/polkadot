@@ -19,7 +19,11 @@ Run: `polkadot --chain alex`
 
 ## Debug
 
-### During fresh sync
+### Error during compilation
+
+If error: `proc-macro derive panicked`, execute `rm ./runtime/wasm/Cargo.lock`
+
+### Error during resh sync
 
 If error: DB corrupted: Invalid argument: You have to open all column families.
 
