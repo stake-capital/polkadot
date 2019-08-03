@@ -53,3 +53,4 @@ journalctl -u polkadot.service -f
 # vi /etc/systemd/system/polkadot.service
 # sudo systemctl daemon-reload
 # sudo systemctl restart polkadot.service
+# journalctl -u polkadot.service -f
