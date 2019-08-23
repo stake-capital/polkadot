@@ -19,6 +19,17 @@ Run script: https://github.com/stake-capital/polkadot/blob/master/alexander_inst
 
 Run: `polkadot --chain alex`
 
+## Delete DB
+
+`/opt/cargo/bin/polkadot purge-chain` 
+
+output: 
+
+```
+Are you sure to remove "/home/ubuntu/.local/share/polkadot/chains/alexander/db"? (y/n)y
+"/home/ubuntu/.local/share/polkadot/chains/alexander/db" removed.
+```
+
 ## Debug
 
 ### Error during compilation
