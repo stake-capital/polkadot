@@ -18,3 +18,6 @@ cd polkadot
 cargo clean
 ./scripts/init.sh
 cargo install --path ./ --force
+
+# copy to /opt/cargo/bin/
+sudo cp -R ./target/release/polkadot /opt/cargo/bin/
