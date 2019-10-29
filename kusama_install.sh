@@ -17,7 +17,28 @@ git clone https://github.com/paritytech/polkadot.git
 cd polkadot
 cargo clean
 ./scripts/init.sh
-cargo install --path ./ --force
 
-# copy to /opt/cargo/bin/
+# Build release 
+cargo build --release
+
+# copy release to /opt/cargo/bin/
 sudo cp -R ./target/release/polkadot /opt/cargo/bin/
+
+# Create Systemd service
+echo "[Unit]
+Description=Polkadot Validator
+After=network-online.target
+[Service]
+User=polkadot
+ExecStart=/opt/cargo/bin/polkadot --validator --chain kusama --pruning archive --name "👹  STAKE CAPITAL"
+Restart=always
+RestartSec=3
+LimitNOFILE=4096
+[Install]
+WantedBy=multi-user.target" > polkadot.service
+
+sudo mv polkadot.servicee /etc/systemd/system/
+sudo systemctl enable polkadot.service
+
+
+
