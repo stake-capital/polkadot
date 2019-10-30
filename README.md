@@ -30,6 +30,10 @@ Are you sure to remove "/home/ubuntu/.local/share/polkadot/chains/alexander/db"?
 "/home/ubuntu/.local/share/polkadot/chains/alexander/db" removed.
 ```
 
+## Chains 
+
+`ls ~/.local/share/polkadot/chains/`
+
 # Install Kusama Testnet
 
 https://guide.kusama.network/en/latest/try/validate/
