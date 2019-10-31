@@ -40,5 +40,8 @@ WantedBy=multi-user.target" > polkadot.service
 sudo mv polkadot.servicee /etc/systemd/system/
 sudo systemctl enable polkadot.service
 
+# Chain saved into
+ls /opt/polkadot/.local/share/polkadot/chains/
+
 
 
