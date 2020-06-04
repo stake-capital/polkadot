@@ -5,6 +5,8 @@ All information related to Polkadot
 
 https://github.com/paritytech/polkadot
 
+Polkadot validator node setup with Joe Petrowski and Will Pankiewicz https://www.youtube.com/watch?v=ejgPSwdLj5o
+
 # Tools
 Telemetry: https://telemetry.polkadot.io/#/Alexander
 Explorer: https://polkadot.js.org/apps/#/explorer
